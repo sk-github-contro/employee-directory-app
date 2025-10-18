@@ -1,9 +1,5 @@
-# 🚀 Employee Directory Application - SPACEAI APP Submission
+# 🚀 Employee Directory Application - 
 
-**Applicant**: Soham Kandalgaonkar  
-**Position**: Senior/Junior MERN Stack Developer (1-5 years Experience)  
-**Company**: SPACEAI APP  
-**Submission Date**: December 2024
 
 ---
 
