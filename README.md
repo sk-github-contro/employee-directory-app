@@ -1,15 +1,11 @@
-# 🚀 Employee Directory Application - SPACEAI APP Submission
+# 🚀 Employee Directory Application - 
 
-**Applicant**: Soham Kandalgaonkar  
-**Position**: Senior/Junior MERN Stack Developer (1-5 years Experience)  
-**Company**: SPACEAI APP  
-**Submission Date**: December 2024
 
 ---
 
 ## 📋 Project Overview
 
-A complete full-stack Employee Directory Application built with modern technologies, demonstrating proficiency in MERN stack development, GraphQL, and modern React patterns. This application meets and exceeds all requirements specified in the SPACEAI APP job application.
+A complete full-stack Employee Directory Application built with modern technologies, demonstrating proficiency in MERN stack development, GraphQL, and modern React patterns. 
 
 ## 🎯 Requirements Compliance
 
