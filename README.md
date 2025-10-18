@@ -293,6 +293,19 @@ The application is production-ready with:
 - ✅ Optimized build configuration
 - ✅ Security best practices
 
+### 🌐 Live Deployment
+
+**Deploy to production in minutes:**
+
+1. **Backend (Render)**: [Deploy to Render](https://render.com)
+2. **Frontend (Vercel)**: [Deploy to Vercel](https://vercel.com)
+
+**See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.**
+
+**Quick Deploy URLs:**
+- **Render**: Connect GitHub repo → Deploy backend
+- **Vercel**: Import GitHub repo → Deploy frontend
+
 ## 📈 Performance Optimizations
 
 - **Apollo Client Caching**: Efficient data caching and updates
