@@ -5,7 +5,7 @@
 
 ## 📋 Project Overview
 
-A complete full-stack Employee Directory Application built with modern technologies, demonstrating proficiency in MERN stack development, GraphQL, and modern React patterns. This application meets and exceeds all requirements specified in the SPACEAI APP job application.
+A complete full-stack Employee Directory Application built with modern technologies, demonstrating proficiency in MERN stack development, GraphQL, and modern React patterns. 
 
 ## 🎯 Requirements Compliance
 
