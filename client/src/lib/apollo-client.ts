@@ -8,15 +8,6 @@ const client = new ApolloClient({
   link: httpLink,
   cache: new InMemoryCache({
     typePolicies: {
-      Employee: {
-        fields: {
-          id: {
-            read(existing, { readField }) {
-              return readField('_id') || existing;
-            }
-          }
-        }
-      },
       Query: {
         fields: {
           getAllEmployees: {
