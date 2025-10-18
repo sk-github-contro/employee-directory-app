@@ -158,7 +158,7 @@ export default function AddEmployeeForm() {
                   id="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md ${
+                  className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md text-gray-900 ${
                     errors.name ? 'border-red-300' : 'border-gray-300'
                   }`}
                   placeholder="Enter full name"
@@ -181,7 +181,7 @@ export default function AddEmployeeForm() {
                   id="position"
                   value={formData.position}
                   onChange={handleInputChange}
-                  className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md ${
+                  className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md text-gray-900 ${
                     errors.position ? 'border-red-300' : 'border-gray-300'
                   }`}
                   placeholder="Enter job position"
@@ -203,9 +203,9 @@ export default function AddEmployeeForm() {
                   id="department"
                   value={formData.department}
                   onChange={handleInputChange}
-                  className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md ${
-                    errors.department ? 'border-red-300' : 'border-gray-300'
-                  }`}
+                      className={`shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border rounded-md text-gray-900 ${
+                        errors.department ? 'border-red-300' : 'border-gray-300'
+                      }`}
                 >
                   <option value="">Select a department</option>
                   {departments.map((dept) => (
@@ -235,9 +235,9 @@ export default function AddEmployeeForm() {
                   id="salary"
                   value={formData.salary}
                   onChange={handleInputChange}
-                  className={`focus:ring-blue-500 focus:border-blue-500 block w-full pl-7 pr-12 sm:text-sm border rounded-md ${
-                    errors.salary ? 'border-red-300' : 'border-gray-300'
-                  }`}
+                      className={`focus:ring-blue-500 focus:border-blue-500 block w-full pl-7 pr-12 sm:text-sm border rounded-md text-gray-900 ${
+                        errors.salary ? 'border-red-300' : 'border-gray-300'
+                      }`}
                   placeholder="0.00"
                   min="0"
                   step="0.01"
