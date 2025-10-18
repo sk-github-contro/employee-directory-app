@@ -50,7 +50,7 @@ export default function EmployeeDetailPage() {
               </div>
               <h3 className="mt-2 text-sm font-medium text-gray-900">Employee not found</h3>
               <p className="mt-1 text-sm text-gray-500">
-                The employee you're looking for doesn't exist or has been removed.
+                The employee you&apos;re looking for doesn&apos;t exist or has been removed.
               </p>
               <div className="mt-6">
                 <Link

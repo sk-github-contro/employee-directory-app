@@ -20,12 +20,12 @@ const client = new ApolloClient({
       Query: {
         fields: {
           getAllEmployees: {
-            merge(existing = [], incoming) {
+            merge(_existing = [], incoming) {
               return incoming;
             }
           },
           getEmployeesByDepartment: {
-            merge(existing = [], incoming) {
+            merge(_existing = [], incoming) {
               return incoming;
             }
           }

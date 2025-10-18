@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useMutation, useQuery } from '@apollo/client';
-import { ADD_EMPLOYEE, GET_ALL_EMPLOYEES, GET_ALL_DEPARTMENTS } from '@/lib/graphql/queries';
+import { ADD_EMPLOYEE, GET_ALL_EMPLOYEES, GET_EMPLOYEES_BY_DEPARTMENT, GET_ALL_DEPARTMENTS } from '@/lib/graphql/queries';
 import { useRouter } from 'next/navigation';
 
 interface Department {
